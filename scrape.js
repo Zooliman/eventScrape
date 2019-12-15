@@ -44,8 +44,9 @@ if(count < 20) {
         });
         console.log(events);
     }
-  });
+  }); 
 }
+
 else if(count >= 20) {
   options.url = "https://www.eventbrite.com/d/israel/science-and-tech--events--this-month/?page=2";
   request(options, (error, response, html) => {
